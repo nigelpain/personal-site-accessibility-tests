@@ -24,7 +24,7 @@ async.series({
 	home: test.run.bind(test, 'http://nigelpain.com/'),
 
 	// Test the photography index page
-	photography: test.run.bind(test, 'http://nigelpain.com/photography')
+	photography: test.run.bind(test, 'http://nigelpain.com/photography.html')
 
 }, function(error, results) {
 	if (error) {
